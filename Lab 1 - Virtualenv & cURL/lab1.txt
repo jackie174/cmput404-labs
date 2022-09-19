@@ -1,0 +1,92 @@
+
+1.
+
+https://github.com/jackie174
+
+
+
+2. 
+
+2.28.1
+
+
+
+3.
+
+2.28.1
+
+
+
+4.
+
+The output is the same, but venv will display in the command line when I use the virtual environment
+
+
+
+5.
+
+state code: 301 Moved Permanently
+
+get state code 200: curl -i  http://www.google.com/
+
+
+
+
+
+
+
+6.
+
+For http://google.com/teapot:
+
+state code: HTTP/1.1 301 Moved Permanently
+
+returned by curl -i
+
+
+
+For http://www.google.com/teapot
+
+state code: HTTP/1.1 418 I'm a Teapot
+
+returned by curl -i
+
+
+
+7. 
+
+Main changes: One is GET, one is POST
+
+
+
+curl - i : 
+
+<DT> REMOTE_PORT <DD> 13102
+
+<DT> REQUEST_METHOD <DD> GET
+
+<DT> UNIQUE_ID <DD> Yd@NzIWYAOtf07@gZ5IrIAAAAAw
+
+
+
+curl -i -X POST -d "X=Y":
+
+
+
+<DT> REMOTE_PORT <DD> 13246
+
+<DT> REQUEST_METHOD <DD> POST
+
+<DT> UNIQUE_ID <DD> Yd@QPSRHQwF8vHry4-VbOgAAAAg
+
+
+
+-X POST: send a post request
+
+
+
+8.
+
+
+
+https://raw.githubusercontent.com/jackie174/cmput404-labs/master/Lab%201%20-%20Virtualenv%20%26%20cURL/lab1.py
