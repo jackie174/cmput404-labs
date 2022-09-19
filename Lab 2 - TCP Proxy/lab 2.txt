@@ -46,7 +46,7 @@ Receive data from the socket. The return value is a bytes object representing th
 
 6: Provide a link to your code on GitHub.
 
-https://github.com/Cmput404-Lab-Assignment/lab2
+https://github.com/jackie174/cmput404-labs/tree/master/Lab%202%20-%20TCP%20Proxy
 
 
 README :
